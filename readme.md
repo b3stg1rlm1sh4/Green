@@ -6,3 +6,5 @@ The game should operate fine within any browser(as of 29/08/2021), simply `clone
 ## Contributors
 + *Misha Evangelista*
   + GitHub: [b3stg1rlm1sh4](https://github.com/b3stg1rlm1sh4)
++ *Mathew*
+  + GitHub: [sun3matthew](https://github.com/sun3matthew)
