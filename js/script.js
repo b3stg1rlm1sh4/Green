@@ -16,7 +16,6 @@ const updater = setInterval(() => {
     blocks.forEach(function(item) {
       item.textContent = "X";
       item.style.backgroundColor = "#3df58a";
-      item.style.color = "#ffffff";
       item.disabled = true;
     })
     clearInterval(timeUpdate);
@@ -35,7 +34,6 @@ function updateBoard(){
   green = blocks[gLoc] 
   green.textContent = "X";
   green.style.backgroundColor = "#3df58a";
-  green.style.color = "#ffffff";
   green.addEventListener("click", function restart() {
     score++;
     startTimer = true;
