@@ -55,9 +55,7 @@ const timeUpdate = setInterval(() => {
 const game = setInterval(() => {
   if(gotGreen) {
     gLoc = Math.floor(Math.random() * 9) + 1;
-    console.log(gLoc);
     updateBoard()
-
     gotGreen = false;
   }
 }, 5 )
